@@ -1,0 +1,170 @@
+         /*header*/
+          .header
+                {
+                 background: radial-gradient(#fff,#86A4cc,#C6D8EE);
+                }
+            .header .row
+                {
+                    margin-top: 70px;
+                }
+                .navbar
+                {
+                     display: flex;
+                     align-items: center;
+                     padding: 20px;
+                }
+
+            nav
+                {
+                    flex: 1;
+                    text-align: right;
+                }
+            nav ul
+                {
+                    display: inline-block;
+                    list-style-type: none;
+                }
+            nav ul li
+                {
+                    display: inline-block;
+                    margin-right: 20px;
+                }
+            
+                .container1
+                {
+                     max-width: 1300px;
+                     margin: auto;
+                     padding-left: 25px;
+                     padding-right: 25px;
+                }   
+                nav ul li
+                {
+                    display: inline-block;
+                    margin-right: 20px;
+                }   
+                
+            /*About Us*/
+                
+            .container2 {
+            display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			height: 100%;
+			width:85%;
+            
+                
+            }
+            .box1 
+            {   
+                height: 80%;
+                width: 50%;
+                background-color:;
+                font-weight: bold;
+                box-sizing: border-box;
+                
+        }
+    
+        .box2 { 
+                height: 80%;
+                width: 40%;
+                background-color:;
+                font-weight: bold;
+                box-sizing:border-box;
+                
+          
+        }
+    
+        .image1
+        {
+          display: block; /* set the display property to block to remove any unwanted margins */
+                margin: auto; /* center the image horizontally */
+                width: 100%; /* set the width of the image to 50% of the parent container */
+                height:80%; /* set the height of the image to auto to maintain aspect ratio */
+                text-align:center; /* center the image vertically */
+            
+        }
+
+       .leftpara
+        {
+            color:lightskyblue;
+            font-size:20px;
+        }
+
+        button
+        {
+            background-color:#3A60AB; /* add a gradient background */
+			color:white; /* set the text color to white */
+			border: none; /* remove the border */
+			padding: 10px 20px; /* add some padding */
+			font-size: 16px; /* set the font size to 16 pixels */
+			text-align: center; /* center the text */
+			cursor: pointer; /* set the cursor to a pointer when */
+            border-radius: 20px; /* round the corners */
+        }
+
+        button:hover 
+        {
+			background-color: #87858D; /* change the background color when hovering over the button */
+		}
+    
+        h1
+        { 
+          text-align:center;
+          font-size: 50px;
+          color: #fff;
+          display: block;
+          margin:10px;
+          height:2px ;
+        }
+    
+        .highlight 
+        {       
+                background-color:#3A60AB; /* set the background color to yellow */
+                padding: 5px; /* add some padding to make the highlight more visible */
+                border-radius: 10px; /* round the corners */
+            }
+        
+        h2
+        { 
+          text-align:left;
+          font-size:30px ;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          color:black;
+        }
+    
+        h3
+        {
+          text-align:left;
+          font-size:20px ;
+        }
+    
+        p
+        { 
+          text-align:center;
+          font-size:13px;
+          color:#87858D;
+        
+        }
+    
+        pre
+        {
+          font-size:15px ;
+          color:#87858D;
+        }
+
+        h4
+        {
+         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         text-align: center;
+         color: #7d95b5;
+        }
+
+      
+
+
+             
+            
+              
+
+           

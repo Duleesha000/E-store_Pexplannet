@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  color: #555;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.banner{
+  flex-basis: 50%;
+  min-width: 300px;
+  
+}
+.banner img{
+  width: 500px;
+  padding: 50px 0;
+  margin-left: 120px;
+  
+}
+.banner h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.btn{
+  display: inline-block;
+  background: #3957a6;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #161d4a;
+}
+.header{
+  background: radial-gradient(rgb(255, 255, 255) 1.5%, rgb(135, 174, 220) 100.3%);
+}
+.header .row{
+  margin-top: 70px;
+}
+.categories{
+  margin: 70px 0;
+}
+.column-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.column-3 img{
+  width: 100%;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.products{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+.products img{
+  width: 100%;
+}
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+.title::after{
+  content: '';
+  background: #104190;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+h4{
+  color: #555;
+  font-weight: normal;
+}
+.products p{
+  font-size: 14px;
+}
+.rating .fa{
+  color: #ff523b;
+}
+.products:hover{
+  transform: translateY(-5px);
+}
+/* Offer */
+.offer{
+  background: radial-gradient(rgb(255, 255, 255) 1.5%, rgb(135, 174, 220) 100.3%);
+  margin-top: 80px;
+  padding: 30px 0;
+}
+.banner .offer-img{
+  padding: 50px;
+}
+small{
+  color: #555;
+}
+
+/* feedbacks */
+.feedbacks{
+  margin-top: 100px;
+}
+.feedbacks .column-3{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.feedbacks .column-3 img{
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.feedbacks .column-3:hover{
+  transform: translateY(-10px);
+  background: radial-gradient(rgb(255, 255, 255) 1.5%, rgb(197, 215, 235) 80.3%);
+}
+.column-3 p{
+  font-size: 12px;
+  margin: 12px 0;
+  color: #777;
+}
+.feedbacks .column-3 h3{
+  font-weight: 600;
+  color: #555;
+  font-size: 16px;
+}
+/* Brands */
+.brands{
+  margin: 100px auto;
+}
+.col-5{
+  width: 160px;
+}
+.col-5 img{
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.col-5 img:hover{
+  filter: grayscale(0);
+}

@@ -1,0 +1,310 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.col-6 > img{
+  width:80%;
+  height: 400px;
+  background-color: red;
+}
+.col-6 > p{
+  width:80%;
+}
+.col-6 > button {
+  float: none;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background: #12259e;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.intro {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.bottom-texts{
+  width: 80%;
+  margin: 30px auto 0px auto;
+  text-align: center;
+}
+
+/* Blue color as primary color */
+h1, h2, ul
+{
+  color: #12259e;
+  }
+  
+  /* Background color for the whole page */
+  body {
+  background-color: #F5F5F5;
+  }
+  
+  /* Main container */
+  .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  }
+  
+  /* Column for the image */
+  .image-col {
+  flex: 0 0 45%;
+  }
+  
+  /* Column for the content */
+  .content-col {
+  flex: 0 0 50%;
+  }
+  
+  /* About us heading */
+  .about-heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  }
+  
+  /* Text for the about us section */
+  .about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  }
+  
+  /* Service heading */
+  .service-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  }
+  
+  /* Service text */
+  .service-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  }
+  
+  /* List of services */
+  .service-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  /* Service list item */
+  .service-item {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  }
+  
+  /* Hours of operation heading */
+  .hours-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  }
+  
+  /* Hours of operation table */
+  .hours-table {
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  }
+  
+  /* Hours of operation table header */
+  .hours-table th {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #0072C6;
+  color: white;
+  padding: 10px 15px;
+  }
+  
+  /* Hours of operation table cell */
+  .hours-table td {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  /* Customer care heading */
+  .care-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  }
+  
+  /* Customer care text */
+  .care-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  }
+  
+  /* Payment methods heading */
+  .payment-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  }
+  
+  /* Payment methods text */
+  .payment-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  }
+  
+  /* Payment methods list */
+  .payment-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  /* Payment methods item */
+  .payment-item {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  }
+  
+  /* Media query for smaller screens /
+  @media (max-width: 768px) {
+  / Change flex direction for smaller screens */
+  .container {
+  flex-direction: column;
+  }
+  
+  /* Make image column 100% width for smaller screens */
+  .image-col {
+  width: 100%;
+  margin-bottom: 30px;
+  }
+  
+  /* Make content column 100% width for smaller screens */
+  .content-col {
+  width:100%;
+  max-width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+  /* Set image column to 40% and content column to 60% */
+  .image-col {
+  width: 40%;
+  max-width: 40%;
+  margin-right: 5%;
+  }
+  
+  .content-col {
+  width: 55%;
+  max-width: 55%;
+  }
+  }
+  
+  /* Styling for the "Our Services" section */
+  .our-services {
+  background-color: #f5f5f5;
+  padding: 30px;
+  margin-top: 50px;
+  }
+  
+  .our-services h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  }
+  
+  .our-services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .our-services li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  }
+  
+  /* Styling for the "Open All Day" section */
+  .open-all-day {
+  margin-top: 50px;
+  }
+  
+  .open-all-day h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  }
+  
+  .open-all-day table {
+  border-collapse: collapse;
+  width: 100%;
+  }
+  
+  .open-all-day th {
+  background-color: #f5f5f5;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  }
+  
+  .open-all-day td {
+  font-size: 16px;
+  padding: 10px;
+  }
